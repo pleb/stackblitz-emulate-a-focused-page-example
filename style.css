@@ -1,0 +1,47 @@
+body {
+  padding: 2rem;
+}
+
+button.menu-activator {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border-color: #eee;
+  background-color: rgb(62, 134, 206);
+  color: white;
+  font-size: 120%;
+  font-weight: 600;
+  width: 200px;
+}
+
+.context-menu {
+  width: 200px;
+  margin: 0.5rem 0 0 0;
+  border: #eee solid 1px;
+
+  font-size: 105%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 1rem;
+
+  display: grid;
+}
+
+.context-menu button {
+  background-color: rgb(223, 219, 219);
+  padding: 0.8rem;
+  border: rgb(150, 146, 146) solid 1px;
+  border-bottom: none;
+}
+
+.context-menu button:hover {
+  background-color: #eee;
+}
+
+.context-menu button:first-child {
+  border-radius: 1rem 1rem 0 0;
+}
+.context-menu button:last-child {
+  border-radius: 0 0 1rem 1rem;
+  border-bottom: rgb(150, 146, 146) solid 1px;
+}
